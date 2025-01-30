@@ -33,7 +33,7 @@ A minimalist URL shortening service. This backend generates short codes for long
 - Random generation with `System.Random`
 - Database uniqueness verification before returning codes
 
-###Directory Structure
+### Directory Structure
 .
 ├── Controllers
 │   └── ShortenController.cs       # API Controller for URL shortening and redirection
