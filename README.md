@@ -33,21 +33,6 @@ A minimalist URL shortening service. This backend generates short codes for long
 - Random generation with `System.Random`
 - Database uniqueness verification before returning codes
 
-### Directory Structure
-.
-├── Controllers
-│   └── ShortenController.cs       # API Controller for URL shortening and redirection
-├── Entity
-│   └── ShortenedUrl.cs            # Entity model for storing URL data
-├── Migrations                     # Database migration files
-├── Models
-│   └── RequestDto.cs              # Data transfer object for the request
-├── Services
-│   └── UrlShorteningServices.cs   # Logic for generating short URLs
-├── appsettings.json               # Configuration file for the app
-├── Program.cs                     # Main entry point for the application
-└── Startup.cs                     # Service and middleware configuration
-
 
 ### Key Sections in the README:
 
